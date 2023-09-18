@@ -3,6 +3,7 @@ library(ggplot2)
 library(tidyverse)
 library(MetBrewer)
 
+
 cols <- met.brewer(name="Egypt", n=4, type="discrete")[c(3,1,2,4)]
 
 df1 <- data.frame("Answer" = c("R", "Unspecified", "Not applicable"),
